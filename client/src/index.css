@@ -59,11 +59,9 @@ body::after {
   width: 400px;
   height: 400px;
   border-radius: 50%;
-  background: radial-gradient(circle at 30% 30%, #ffd9a8 0%, #ff8a4c 26%, #8a2f2a 58%, #1a0b12 100%);
-  box-shadow:
-    0 0 90px rgba(255, 138, 76, 0.35),
-    inset -40px -30px 80px rgba(0, 0, 0, 0.65);
+  background: url("./assets/sun.png") center / cover no-repeat;
   animation: rise 1.6s ease-out both;
+  z-index: -1;
 }
 
 @keyframes rise {

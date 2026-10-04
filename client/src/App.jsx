@@ -120,7 +120,7 @@ function App() {
     <div className="wrap">
       <header className="hero">
         <div className="world"></div>
-        <h1>Worlds beyond our Sun</h1>
+        <h1>Worlds beyond our Sun.</h1>
         <p className="lead">
           Every confirmed exoplanet in NASA's archive. Search by name, or filter by how the planet was found.
         </p>
